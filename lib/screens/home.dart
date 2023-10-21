@@ -176,7 +176,7 @@ class _HomeState extends State<Home> {
       child: TextField(
         onChanged: (value) => _runFilter(value),
         decoration: const InputDecoration(
-          contentPadding: EdgeInsets.all(0),
+          contentPadding: EdgeInsets.symmetric(vertical: 10),
           prefixIcon: Icon(
             Icons.search,
             color: tdBlack,
